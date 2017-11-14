@@ -1,0 +1,132 @@
+.wrapper {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  /*  side wrap */
+  /* container */ }
+  .wrapper .side-wrapper {
+    width: 12%;
+    height: 100vh;
+    background: #87ee87;
+    /* logo wrap */ }
+    .wrapper .side-wrapper .logo-wrapper {
+      text-align: center; }
+      .wrapper .side-wrapper .logo-wrapper .logo i {
+        font-size: 250%;
+        padding: 20px; }
+    .wrapper .side-wrapper .filter-wrapper {
+      width: 100%; }
+      .wrapper .side-wrapper .filter-wrapper:hover .dropdown-content {
+        display: block; }
+      .wrapper .side-wrapper .filter-wrapper .filter-btn {
+        background: rebeccapurple;
+        border: none;
+        padding: 12px 20px;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer; }
+        .wrapper .side-wrapper .filter-wrapper .filter-btn:focus {
+          outline: none; }
+      .wrapper .side-wrapper .filter-wrapper .dropdown-content {
+        background: wheat;
+        display: none;
+        transition: all 6s ease-in-out; }
+        .wrapper .side-wrapper .filter-wrapper .dropdown-content ul {
+          margin: 0;
+          padding: 0; }
+        .wrapper .side-wrapper .filter-wrapper .dropdown-content li {
+          list-style: none;
+          padding: 10px; }
+  .wrapper .container {
+    width: 100%; }
+    .wrapper .container .search-wrapper {
+      display: flex;
+      justify-content: space-between;
+      background: rebeccapurple;
+      /* skhfjksdhfshfhsdjkf */
+      /* sdkflkdkfkdf */ }
+      .wrapper .container .search-wrapper .search-bar {
+        padding: 15px;
+        width: 50%; }
+        .wrapper .container .search-wrapper .search-bar .search-label {
+          display: flex;
+          width: 80%; }
+          .wrapper .container .search-wrapper .search-bar .search-label input {
+            width: 100%;
+            border: 0;
+            padding: 10px 5px; }
+          .wrapper .container .search-wrapper .search-bar .search-label i {
+            font-size: 200%;
+            background: #ffffff;
+            padding: 10px 15px; }
+          .wrapper .container .search-wrapper .search-bar .search-label input:focus {
+            outline: none; }
+      .wrapper .container .search-wrapper .details-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-basis: 20%;
+        color: white; }
+        .wrapper .container .search-wrapper .details-wrap i {
+          font-size: 200%; }
+        .wrapper .container .search-wrapper .details-wrap .fa-user {
+          background: black;
+          padding: 12px;
+          border-radius: 50%; }
+        .wrapper .container .search-wrapper .details-wrap p {
+          margin: 0;
+          padding: 0; }
+    .wrapper .container .change-view-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background: lightgray; }
+      .wrapper .container .change-view-wrapper .change-view {
+        flex-basis: 10%;
+        display: flex;
+        justify-content: space-around; }
+        .wrapper .container .change-view-wrapper .change-view i {
+          font-size: 150%;
+          cursor: pointer; }
+    .wrapper .container .car-grid-wrapper {
+      display: flex;
+      flex-wrap: wrap; }
+      .wrapper .container .car-grid-wrapper .car-card {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 33.33%; }
+        .wrapper .container .car-grid-wrapper .car-card .rating-area {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px; }
+          .wrapper .container .car-grid-wrapper .car-card .rating-area i {
+            color: #f1f11a; }
+        .wrapper .container .car-grid-wrapper .car-card .price {
+          display: flex;
+          flex-direction: column; }
+          .wrapper .container .car-grid-wrapper .car-card .price .orignal-price {
+            text-decoration: line-through; }
+          .wrapper .container .car-grid-wrapper .car-card .price .discount-price {
+            font-weight: 700; }
+          .wrapper .container .car-grid-wrapper .car-card .price .discount {
+            color: #94ddf3; }
+        .wrapper .container .car-grid-wrapper .car-card .image .card-image img {
+          display: block;
+          margin: 0 auto; }
+        .wrapper .container .car-grid-wrapper .car-card .car-description {
+          /* h2,{
+            margin: 0px 0 0px 0;
+          }
+          h3{
+            margin: 10px;
+          } */ }
+        .wrapper .container .car-grid-wrapper .car-card .buy-button a {
+          text-decoration: none;
+          color: white;
+          background: rebeccapurple;
+          padding: 12px 20px; }
+
+/* wrapper */
+
+/*# sourceMappingURL=all.css.map */
